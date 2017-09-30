@@ -12,3 +12,7 @@ git commit -m "text of commit" %%repository comments on files what already added
 
 git remote add origin https://github.com/deadwindxkn/polytech_test_repo.git %%add remote repository
 git push -u origin master %%update remote repository, it will be names "origin"
+
+cd c:\github\python-guide
+git remote add origin2 https://github.com/deadwindxkn/python-guide
+git push -u origin2 master 

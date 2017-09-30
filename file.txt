@@ -3,12 +3,12 @@ git config --global user.name ''Kirill_Novitsky"
 git config --global user.email "deadwindxkn@gmail.com"
 git config --list
 
-cd c:/polytech_test_repo --добавить адрес
-git init - создать репозиторий
-git add . --добавить всё
-git add text_file.txt --добавить конкретный
-git status - статус репозитория
-git commit -m "text of commit" --добавляет коммит (!)файлов которые добавлены в репозиторий см. "git add"
+cd c:/polytech_test_repo %% add repository local adress
+git init %% add repository
+git add . %%update files
+git add text_file.txt %%update file
+git status %%repository status
+git commit -m "text of commit" %%repository comments on files what already added (!) "git add"
 
-git remote add origin https://github.com/deadwindxkn/polytech_test_repo.git
-git push -u origin master
+git remote add origin https://github.com/deadwindxkn/polytech_test_repo.git %%add remote repository
+git push -u origin master %%update remote repository, it will be names "origin"

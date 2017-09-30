@@ -1,0 +1,14 @@
+git config
+git config --global user.name ''Kirill_Novitsky"
+git config --global user.email "deadwindxkn@gmail.com"
+git config --list
+
+cd c:/polytech_test_repo --добавить адрес
+git init - создать репозиторий
+git add . --добавить всё
+git add text_file.txt --добавить конкретный
+git status - статус репозитория
+git commit -m "text of commit" --добавляет коммит (!)файлов которые добавлены в репозиторий см. "git add"
+
+git remote add origin https://github.com/deadwindxkn/polytech_test_repo.git
+git push -u origin master
